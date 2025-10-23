@@ -1,0 +1,139 @@
+{
+  "issuer": "Chase",
+  "last4": null,
+  "billing_cycle": null,
+  "due_date": null,
+  "total_balance": null,
+  "transactions": [
+    {
+      "date": "2019-08-05",
+      "description": "IGST-VPS1912945051817-RATE 18.0 -19 (Ref# 09999999980508001390767)",
+      "amount": 241.91
+    },
+    {
+      "date": "2019-08-05",
+      "description": "IGST-VPS1912945051816-RATE 18.0 -19 (Ref# 09999999980508001390742)",
+      "amount": 183.96
+    },
+    {
+      "date": "2019-08-05",
+      "description": "IGST-VPS1912945051814-RATE 18.0 -19 (Ref# 09999999980508001390700)",
+      "amount": 113.65
+    },
+    {
+      "date": "2019-08-05",
+      "description": "IGST-VPS1912945051818-RATE 18.0 -19 (Ref# 14901511900508999665140)",
+      "amount": 191.82
+    },
+    {
+      "date": "2019-08-05",
+      "description": "IGST-VPS1912945051815-RATE 18.0 -19 (Ref# 09999999980508001390726)",
+      "amount": 9.41
+    },
+    {
+      "date": "2019-05-23",
+      "description": "Flipkart Payments BANGALORE",
+      "amount": 8249.0
+    },
+    {
+      "date": "2019-05-23",
+      "description": "Flipkart Payments BANGALORE",
+      "amount": 6569.0
+    },
+    {
+      "date": "2019-05-23",
+      "description": "Flipkart Payments BANGALORE",
+      "amount": 8249.0
+    },
+    {
+      "date": "2019-05-23",
+      "description": "NEFT CREDIT CARD PAYMENT PAYTM PAYM (Ref# 00000000000523010230457)",
+      "amount": 14000.0
+    },
+    {
+      "date": "2019-05-24",
+      "description": "FOOD PARK NORTH (24) P",
+      "amount": 360.0
+    },
+    {
+      "date": "2019-05-24",
+      "description": "ZAMAN SERVICE STATION KOLKATTA",
+      "amount": 202.0
+    },
+    {
+      "date": "2019-05-24",
+      "description": "ZAMAN SERVICE STATION KOLKATTA",
+      "amount": 1.5
+    },
+    {
+      "date": "2019-05-24",
+      "description": "REMEDY HOSPITAL KOLKATTA",
+      "amount": 8000.0
+    },
+    {
+      "date": "2019-05-27",
+      "description": "Flipkart Payments BANGALORE",
+      "amount": 6569.0
+    },
+    {
+      "date": "2019-05-27",
+      "description": "NEFT CREDIT CARD PAYMENT PAYTM PAYM (Ref# 00000000000527015591565)",
+      "amount": 8000.0
+    },
+    {
+      "date": "2019-02-06",
+      "description": "BOOK MY SHOW MUMBAI",
+      "amount": 490.88
+    },
+    {
+      "date": "2019-02-06",
+      "description": "M/S PLANET PLUTO KOLKATA",
+      "amount": 110.0
+    },
+    {
+      "date": "2019-08-06",
+      "description": "MER EMI ,INT NBR:06,00000000000423 (Ref# 09999999980608001391094)",
+      "amount": 1284.4
+    },
+    {
+      "date": "2019-08-06",
+      "description": "INSTALOAN,PRIN NB:12,00000000000371 (Ref# 09999999980608001391060)",
+      "amount": 1558.6
+    },
+    {
+      "date": "2019-08-06",
+      "description": "FINANCE CHARGES (Ref# 14901511900608999704220)",
+      "amount": 1193.33
+    },
+    {
+      "date": "2019-08-06",
+      "description": "INSTALOAN,INT NBR:28,00000000000263 (Ref# 09999999980608001391037)",
+      "amount": 615.69
+    },
+    {
+      "date": "2019-08-06",
+      "description": "MER EMI ,INT NBR:22,00000000000295 (Ref# 09999999980608001391052)",
+      "amount": 39.46
+    },
+    {
+      "date": "2019-08-06",
+      "description": "INSTALOAN,INT NBR:12,00000000000371 (Ref# 09999999980608001391078)",
+      "amount": 1001.25
+    },
+    {
+      "date": "2019-08-06",
+      "description": "M-FLIPKART INTERNET PR,P:22,0000295 (Ref# 09999999980608001391045)",
+      "amount": 1039.32
+    },
+    {
+      "date": "2019-08-06",
+      "description": "INSTALOAN,PRIN NB:28,00000000000263 (Ref# 09999999980608001391029)",
+      "amount": 1602.7
+    },
+    {
+      "date": "2019-08-06",
+      "description": "M-AMAZON SELLER SERVIC,P:06,0000423 (Ref# 09999999980608001391086)",
+      "amount": 4824.77
+    }
+  ]
+}

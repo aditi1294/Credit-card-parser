@@ -1,0 +1,7 @@
+streamlit
+pdfplumber
+pillow
+pytesseract
+python-dateutil
+regex
+pytest
