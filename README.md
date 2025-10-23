@@ -1,47 +1,55 @@
-Credit Card Statement Parser
 
-Overview:
-This project extracts key financial details from Indian credit card statements (PDFs) using Python and Streamlit.
-It supports multiple banks and helps quickly view your billing details and transactions in a structured format.
+# 💳 Credit Card Statement Parser
 
-Features
+### 🧠 Overview  
+This project extracts key financial details from **Indian credit card statements (PDFs)** using **Python** and **Streamlit**.  
+It supports multiple banks and helps you quickly view billing details, due dates, and transaction summaries in a clean interface.
 
-Supports 5 major Indian issuers: HDFC, ICICI, SBI, Axis, American Express
+---
 
-Extracts 5 key data points:
+## ⚙️ Features
+- 🏦 Supports 5 major Indian issuers: **HDFC**, **ICICI**, **SBI**, **Axis**, and **American Express**
+- 🔍 Extracts 5 key data points:
+  - Issuer Name  
+  - Card Last 4 Digits  
+  - Billing Cycle  
+  - Payment Due Date  
+  - Total Balance + Transaction History
+- 💻 Interactive Streamlit UI  
+- 💾 Download parsed data as **JSON**
 
-Issuer Name
+---
 
-Card Last 4 Digits
+## 🚀 How to Run
 
-Billing Cycle
-
-Payment Due Date
-
-Total Balance + Transactions
-
-Clean Streamlit UI with JSON download option
-
-How to Run
-
-Install dependencies
-
+### 1️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
+````
 
-Place PDF files in the sample_statements/ folder
+### 2️⃣ Add PDF Files
 
-Run the Streamlit app
+Place your sample credit card statements in the `sample_statements/` folder.
 
+### 3️⃣ Launch the App
+
+```bash
 streamlit run app.py
+```
 
-Upload a statement and view parsed details instantly
+### 4️⃣ Use the Interface
 
-Download results as a JSON file
+* Upload a statement PDF
+* View extracted issuer, billing cycle, and transactions
+* Download results as a JSON file
 
-Supported Issuers
+---
 
-Defined in parser/issuers.py:
+## 🏦 Supported Issuers
 
+Defined in `parser/issuers.py`:
+
+```python
 ISSUER_PATTERNS = {
     "HDFC Bank": ["HDFC", "HDFC BANK"],
     "ICICI Bank": ["ICICI", "ICICI BANK"],
@@ -49,7 +57,26 @@ ISSUER_PATTERNS = {
     "Axis Bank": ["AXIS", "AXIS BANK"],
     "American Express": ["AMEX", "AMERICAN EXPRESS"]
 }
+```
 
-🖤Built with Python & Streamlit
+---
 
-Simple. Fast. Reliable.
+## 📄 Example Output
+
+```json
+{
+  "issuer": "HDFC Bank",
+  "last4": "5678",
+  "billing_cycle": "01 Jan - 31 Jan 2025",
+  "due_date": "20 Feb 2025",
+  "total_balance": 25430.75
+}
+```
+
+---
+
+### 🖤 Built with Python & Streamlit
+
+Simple • Fast • Reliable
+
+```
